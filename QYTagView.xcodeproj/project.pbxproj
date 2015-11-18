@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC6B1A5589DB254E9C161CE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29171358791A3556F844AD1A /* libPods.a */; };
 		B56D93911BFC598300A6CBD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93901BFC598300A6CBD4 /* main.m */; };
 		B56D93941BFC598300A6CBD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93931BFC598300A6CBD4 /* AppDelegate.m */; };
 		B56D93971BFC598300A6CBD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93961BFC598300A6CBD4 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		B56D939C1BFC598300A6CBD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56D939B1BFC598300A6CBD4 /* Images.xcassets */; };
 		B56D939F1BFC598300A6CBD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56D939D1BFC598300A6CBD4 /* LaunchScreen.xib */; };
 		B56D93AB1BFC598300A6CBD4 /* QYTagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93AA1BFC598300A6CBD4 /* QYTagViewTests.m */; };
+		B56D93B61BFC5FFC00A6CBD4 /* ZRTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93B51BFC5FFC00A6CBD4 /* ZRTagView.m */; };
+		B56D93B91BFC79B800A6CBD4 /* ThisIsTestGitFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B56D93B81BFC79B800A6CBD4 /* ThisIsTestGitFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29171358791A3556F844AD1A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9252FCC6007F4B4CB340A36B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B4624AC7926DBF2FD039A981 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B56D938B1BFC598300A6CBD4 /* QYTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D938F1BFC598300A6CBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56D93901BFC598300A6CBD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,10 @@
 		B56D93A41BFC598300A6CBD4 /* QYTagViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYTagViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56D93A91BFC598300A6CBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56D93AA1BFC598300A6CBD4 /* QYTagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYTagViewTests.m; sourceTree = "<group>"; };
+		B56D93B41BFC5FFC00A6CBD4 /* ZRTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTagView.h; sourceTree = "<group>"; };
+		B56D93B51BFC5FFC00A6CBD4 /* ZRTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTagView.m; sourceTree = "<group>"; };
+		B56D93B71BFC79B800A6CBD4 /* ThisIsTestGitFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThisIsTestGitFile.h; sourceTree = "<group>"; };
+		B56D93B81BFC79B800A6CBD4 /* ThisIsTestGitFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThisIsTestGitFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EC6B1A5589DB254E9C161CE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F019CA32CDD891F2ED8D745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29171358791A3556F844AD1A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3514AC8A22B208FA922785A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9252FCC6007F4B4CB340A36B /* Pods.debug.xcconfig */,
+				B4624AC7926DBF2FD039A981 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B56D93821BFC598300A6CBD4 = {
 			isa = PBXGroup;
 			children = (
 				B56D938D1BFC598300A6CBD4 /* QYTagView */,
 				B56D93A71BFC598300A6CBD4 /* QYTagViewTests */,
 				B56D938C1BFC598300A6CBD4 /* Products */,
+				3514AC8A22B208FA922785A7 /* Pods */,
+				1F019CA32CDD891F2ED8D745 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +113,10 @@
 			children = (
 				B56D93921BFC598300A6CBD4 /* AppDelegate.h */,
 				B56D93931BFC598300A6CBD4 /* AppDelegate.m */,
+				B56D93B41BFC5FFC00A6CBD4 /* ZRTagView.h */,
+				B56D93B51BFC5FFC00A6CBD4 /* ZRTagView.m */,
+				B56D93B71BFC79B800A6CBD4 /* ThisIsTestGitFile.h */,
+				B56D93B81BFC79B800A6CBD4 /* ThisIsTestGitFile.m */,
 				B56D93951BFC598300A6CBD4 /* ViewController.h */,
 				B56D93961BFC598300A6CBD4 /* ViewController.m */,
 				B56D93981BFC598300A6CBD4 /* Main.storyboard */,
@@ -126,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B56D93AE1BFC598300A6CBD4 /* Build configuration list for PBXNativeTarget "QYTagView" */;
 			buildPhases = (
+				BE2445718B35E4994ACECE0D /* Check Pods Manifest.lock */,
 				B56D93871BFC598300A6CBD4 /* Sources */,
 				B56D93881BFC598300A6CBD4 /* Frameworks */,
 				B56D93891BFC598300A6CBD4 /* Resources */,
+				DDD22B7BB1109866620A34EF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +250,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BE2445718B35E4994ACECE0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDD22B7BB1109866620A34EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B56D93871BFC598300A6CBD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B56D93971BFC598300A6CBD4 /* ViewController.m in Sources */,
+				B56D93B61BFC5FFC00A6CBD4 /* ZRTagView.m in Sources */,
 				B56D93941BFC598300A6CBD4 /* AppDelegate.m in Sources */,
+				B56D93B91BFC79B800A6CBD4 /* ThisIsTestGitFile.m in Sources */,
 				B56D93911BFC598300A6CBD4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +416,7 @@
 		};
 		B56D93AF1BFC598300A6CBD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9252FCC6007F4B4CB340A36B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYTagView/Info.plist;
@@ -355,6 +427,7 @@
 		};
 		B56D93B01BFC598300A6CBD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4624AC7926DBF2FD039A981 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYTagView/Info.plist;
@@ -416,6 +489,7 @@
 				B56D93B01BFC598300A6CBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56D93B11BFC598300A6CBD4 /* Build configuration list for PBXNativeTarget "QYTagViewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +498,7 @@
 				B56D93B31BFC598300A6CBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
