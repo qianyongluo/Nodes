@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ThisIsTestGitFile : NSObject
-
+#warning 这是一个冲突的 2 文件 测试
 @end
